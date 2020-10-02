@@ -1,0 +1,72 @@
+/* Body background color, border, padding, etc. */
+body {
+  border-radius: 25px;
+  border: 5px solid #4a89ff;
+  padding: 20px;
+/* Gradient background */
+  background-image: linear-gradient(rgb(175, 226, 255), hsl(215, 44%, 42%));
+  border-style: outset;
+}
+
+/* Header color, font, size, and alignment */
+header {
+  font-family: cursive;
+  color: rgb(51, 51, 51);
+  font-size: 25px;
+  text-align: center;
+}
+
+/* Image size, added border, padding, shadow, etc. and changed display to block */
+img {
+  height: 300px;
+  border: 5px solid #4a89ff;
+  border-radius: 25px;
+  padding: 5px;
+  box-shadow: 5px 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+/* Added a 50% grayscale filter to my image */
+  filter: grayscale(50%);
+}
+
+/* Changed color, font, border, etc. of all h2 */
+h2 {
+  color: rgb(51, 51, 51);
+  border: solid #4a89ff;
+  border-style: outset;
+  border-radius: 25px;
+  font-family: cursive;
+  text-align: center;
+}
+
+/* Changed font and color of p and ul */
+p, ul {
+  font-family: serif;
+  color: rgb(51, 51, 51);
+}
+
+/* Used a id selector to change color of TSCT */
+#tsct {
+  color: rgb(143, 2, 2);
+}
+
+/* Used a class selector to underline "job" */
+.job {
+  text-decoration: underline;
+}
+
+/* Used an attribute selector for the email */
+a[href = "mailto: jbhorst@yahoo.com"] {
+  color: rgb(5, 255, 88);
+}
+
+/* Used a hover selector to change color of link your mouse pointer hovers over */
+a:hover {
+  color: pink;
+}
+
+ /* Used a visited selector to change color of link after you've clicked on it */
+a:visited {
+  color:blueviolet;
+}
